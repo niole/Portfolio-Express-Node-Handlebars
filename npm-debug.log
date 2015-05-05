@@ -1,0 +1,229 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mongoskin' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json Portfolio-Express-Node-Handlebars@1.0.0 No description
+6 warn package.json Portfolio-Express-Node-Handlebars@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'mongoskin', null ]
+9 verbose cache add name=undefined spec="mongoskin" args=["mongoskin",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mongoskin',
+10 verbose parsed url   path: 'mongoskin',
+10 verbose parsed url   href: 'mongoskin' }
+11 silly lockFile 48c9bc44-mongoskin mongoskin
+12 verbose lock mongoskin /home/niole/.npm/48c9bc44-mongoskin.lock
+13 silly lockFile 48c9bc44-mongoskin mongoskin
+14 silly lockFile 48c9bc44-mongoskin mongoskin
+15 verbose addNamed [ 'mongoskin', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 67823afd-mongoskin mongoskin@
+18 verbose lock mongoskin@ /home/niole/.npm/67823afd-mongoskin.lock
+19 silly addNameRange { name: 'mongoskin', range: '*', hasData: false }
+20 verbose request where is /mongoskin
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 7f08c1da4ad67675
+23 verbose url raw /mongoskin
+24 verbose url resolving [ 'https://registry.npmjs.org/', './mongoskin' ]
+25 verbose url resolved https://registry.npmjs.org/mongoskin
+26 verbose request where is https://registry.npmjs.org/mongoskin
+27 info trying registry request attempt 1 at 11:59:33
+28 verbose etag "BYCLMWQB9U0HH1QI1HAH1VX8E"
+29 http GET https://registry.npmjs.org/mongoskin
+30 http 304 https://registry.npmjs.org/mongoskin
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Tue, 05 May 2015 15:59:33 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     etag: '"BYCLMWQB9U0HH1QI1HAH1VX8E"',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-atl6229-ATL',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1430841573.441723,VS0,VE80',
+31 silly registry.get     vary: 'Accept' } ]
+32 verbose etag https://registry.npmjs.org/mongoskin from cache
+33 silly addNameRange number 2 { name: 'mongoskin', range: '*', hasData: true }
+34 silly addNameRange versions [ 'mongoskin',
+34 silly addNameRange   [ '0.1.0',
+34 silly addNameRange     '0.1.1',
+34 silly addNameRange     '0.1.2',
+34 silly addNameRange     '0.1.3',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '0.2.1',
+34 silly addNameRange     '0.2.2',
+34 silly addNameRange     '0.2.3',
+34 silly addNameRange     '0.3.0',
+34 silly addNameRange     '0.3.3',
+34 silly addNameRange     '0.3.4',
+34 silly addNameRange     '0.3.5',
+34 silly addNameRange     '0.3.6',
+34 silly addNameRange     '0.3.7',
+34 silly addNameRange     '0.4.0',
+34 silly addNameRange     '0.4.1',
+34 silly addNameRange     '0.4.2',
+34 silly addNameRange     '0.4.3',
+34 silly addNameRange     '0.4.4',
+34 silly addNameRange     '0.5.0',
+34 silly addNameRange     '0.6.0',
+34 silly addNameRange     '0.6.1',
+34 silly addNameRange     '1.3.20-alpha',
+34 silly addNameRange     '1.3.20',
+34 silly addNameRange     '1.3.21',
+34 silly addNameRange     '1.3.22',
+34 silly addNameRange     '1.3.23',
+34 silly addNameRange     '1.4.0',
+34 silly addNameRange     '1.4.1',
+34 silly addNameRange     '1.4.2',
+34 silly addNameRange     '1.4.3',
+34 silly addNameRange     '1.4.4',
+34 silly addNameRange     '1.4.10-beta',
+34 silly addNameRange     '1.4.10',
+34 silly addNameRange     '1.4.11',
+34 silly addNameRange     '1.4.12',
+34 silly addNameRange     '1.4.13' ] ]
+35 verbose addNamed [ 'mongoskin', '1.4.13' ]
+36 verbose addNamed [ '1.4.13', '1.4.13' ]
+37 silly lockFile 0c1c9ac8-mongoskin-1-4-13 mongoskin@1.4.13
+38 verbose lock mongoskin@1.4.13 /home/niole/.npm/0c1c9ac8-mongoskin-1-4-13.lock
+39 silly lockFile 0c1c9ac8-mongoskin-1-4-13 mongoskin@1.4.13
+40 silly lockFile 0c1c9ac8-mongoskin-1-4-13 mongoskin@1.4.13
+41 silly lockFile 67823afd-mongoskin mongoskin@
+42 silly lockFile 67823afd-mongoskin mongoskin@
+43 silly resolved [ { name: 'mongoskin',
+43 silly resolved     description: 'The future layer above node-mongodb-native',
+43 silly resolved     version: '1.4.13',
+43 silly resolved     author: { name: 'Gui Lin', email: 'guileen@gmail.com' },
+43 silly resolved     homepage: 'https://github.com/kissjs/node-mongoskin',
+43 silly resolved     repository:
+43 silly resolved      { type: 'git',
+43 silly resolved        url: 'git://github.com/kissjs/node-mongoskin.git' },
+43 silly resolved     bugs: { url: 'https://github.com/kissjs/node-mongoskin/issues' },
+43 silly resolved     main: './index.js',
+43 silly resolved     keywords: [ 'mongodb', 'database', 'nosql' ],
+43 silly resolved     engines: { node: '>= 0.4.0' },
+43 silly resolved     peerDependencies: { mongodb: '~1.4' },
+43 silly resolved     devDependencies:
+43 silly resolved      { mocha: '~1.17.1',
+43 silly resolved        blanket: '~1.1.6',
+43 silly resolved        coveralls: '~2.10.0',
+43 silly resolved        'mocha-lcov-reporter': '0.0.1',
+43 silly resolved        'travis-cov': '~0.2.5',
+43 silly resolved        mongodb: '~1.4',
+43 silly resolved        should: '~3.1.2' },
+43 silly resolved     config: { blanket: [Object], 'travis-cov': [Object] },
+43 silly resolved     scripts: { test: 'mocha -R travis-cov' },
+43 silly resolved     directories: { example: './examples', lib: './lib/mongoskin' },
+43 silly resolved     license: 'MIT',
+43 silly resolved     contributors:
+43 silly resolved      [ [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object],
+43 silly resolved        [Object] ],
+43 silly resolved     gitHead: '8dcf669ff808463191033cc1e3917caa2bc41984',
+43 silly resolved     _id: 'mongoskin@1.4.13',
+43 silly resolved     _shasum: '1deec5b5dcc25180a9a19c59956c098f8c12ee7d',
+43 silly resolved     _from: 'mongoskin@',
+43 silly resolved     _npmVersion: '2.5.1',
+43 silly resolved     _nodeVersion: '0.12.0',
+43 silly resolved     _npmUser: { name: 'vkarpov15', email: 'val@karpov.io' },
+43 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+43 silly resolved     dist:
+43 silly resolved      { shasum: '1deec5b5dcc25180a9a19c59956c098f8c12ee7d',
+43 silly resolved        tarball: 'http://registry.npmjs.org/mongoskin/-/mongoskin-1.4.13.tgz' },
+43 silly resolved     _resolved: 'https://registry.npmjs.org/mongoskin/-/mongoskin-1.4.13.tgz',
+43 silly resolved     readme: 'ERROR: No README data found!' } ]
+44 info install mongoskin@1.4.13 into /home/niole/code/javascript/Portfolio-Express-Node-Handlebars
+45 info installOne mongoskin@1.4.13
+46 verbose node_modules/mongoskin unbuild
+47 verbose tar unpack /home/niole/.npm/mongoskin/1.4.13/package.tgz
+48 silly lockFile 128a9e47-andlebars-node-modules-mongoskin tar:///home/niole/code/javascript/Portfolio-Express-Node-Handlebars/node_modules/mongoskin
+49 verbose lock tar:///home/niole/code/javascript/Portfolio-Express-Node-Handlebars/node_modules/mongoskin /home/niole/.npm/128a9e47-andlebars-node-modules-mongoskin.lock
+50 silly lockFile 61323970-npm-mongoskin-1-4-13-package-tgz tar:///home/niole/.npm/mongoskin/1.4.13/package.tgz
+51 verbose lock tar:///home/niole/.npm/mongoskin/1.4.13/package.tgz /home/niole/.npm/61323970-npm-mongoskin-1-4-13-package-tgz.lock
+52 silly gunzTarPerm modes [ '775', '664' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+55 silly gunzTarPerm extractEntry .npmignore
+56 silly gunzTarPerm extractEntry LICENSE
+57 silly gunzTarPerm extractEntry index.js
+58 silly gunzTarPerm extractEntry Readme.md
+59 silly gunzTarPerm extractEntry History.md
+60 silly gunzTarPerm extractEntry Makefile
+61 silly gunzTarPerm extractEntry .jshintrc
+62 silly gunzTarPerm extractEntry examples/admin.js
+63 silly gunzTarPerm extractEntry examples/close.js
+64 silly gunzTarPerm extractEntry examples/config.js
+65 silly gunzTarPerm extractEntry examples/generateId.js
+66 silly gunzTarPerm extractEntry examples/gridfs.js
+67 silly gunzTarPerm extractEntry examples/insert.js
+68 silly gunzTarPerm extractEntry examples/replSetBenchmark.js
+69 silly gunzTarPerm extractEntry examples/replset.js
+70 silly gunzTarPerm extractEntry examples/update.js
+71 silly gunzTarPerm extractEntry .travis.yml
+72 silly gunzTarPerm extractEntry lib/admin.js
+73 silly gunzTarPerm extractEntry lib/constant.js
+74 silly gunzTarPerm extractEntry lib/cursor.js
+75 silly gunzTarPerm extractEntry lib/db.js
+76 silly gunzTarPerm extractEntry lib/collection.js
+77 silly gunzTarPerm extractEntry lib/grid_store.js
+78 silly gunzTarPerm extractEntry lib/helper.js
+79 silly gunzTarPerm extractEntry lib/index.js
+80 silly gunzTarPerm extractEntry lib/mongo_client.js
+81 silly gunzTarPerm extractEntry lib/utils.js
+82 silly gunzTarPerm extractEntry lib/grid.js
+83 silly gunzTarPerm extractEntry AUTHORS
+84 silly lockFile 128a9e47-andlebars-node-modules-mongoskin tar:///home/niole/code/javascript/Portfolio-Express-Node-Handlebars/node_modules/mongoskin
+85 silly lockFile 128a9e47-andlebars-node-modules-mongoskin tar:///home/niole/code/javascript/Portfolio-Express-Node-Handlebars/node_modules/mongoskin
+86 silly lockFile 61323970-npm-mongoskin-1-4-13-package-tgz tar:///home/niole/.npm/mongoskin/1.4.13/package.tgz
+87 silly lockFile 61323970-npm-mongoskin-1-4-13-package-tgz tar:///home/niole/.npm/mongoskin/1.4.13/package.tgz
+88 info preinstall mongoskin@1.4.13
+89 verbose readDependencies using package.json deps
+90 verbose readDependencies using package.json deps
+91 silly resolved []
+92 verbose about to build /home/niole/code/javascript/Portfolio-Express-Node-Handlebars/node_modules/mongoskin
+93 info build /home/niole/code/javascript/Portfolio-Express-Node-Handlebars/node_modules/mongoskin
+94 verbose linkStuff [ false,
+94 verbose linkStuff   false,
+94 verbose linkStuff   false,
+94 verbose linkStuff   '/home/niole/code/javascript/Portfolio-Express-Node-Handlebars/node_modules' ]
+95 info linkStuff mongoskin@1.4.13
+96 verbose linkBins mongoskin@1.4.13
+97 verbose linkMans mongoskin@1.4.13
+98 verbose rebuildBundles mongoskin@1.4.13
+99 info install mongoskin@1.4.13
+100 info postinstall mongoskin@1.4.13
+101 verbose readDependencies using package.json deps
+102 verbose already installed skipping mongodb@~1.4 /home/niole/code/javascript/Portfolio-Express-Node-Handlebars
+103 silly resolved []
+104 error peerinvalid The package mongodb does not satisfy its siblings' peerDependencies requirements!
+104 error peerinvalid Peer mongoskin@1.4.13 wants mongodb@~1.4
+105 error System Linux 3.13.0-32-generic
+106 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "mongoskin"
+107 error cwd /home/niole/code/javascript/Portfolio-Express-Node-Handlebars
+108 error node -v v0.10.37
+109 error npm -v 1.4.28
+110 error code EPEERINVALID
+111 verbose exit [ 1, true ]
