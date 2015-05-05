@@ -1,14 +1,20 @@
 # Portfolio-Express-Node-Handlebars
 A simple backend created with the goal of portfolio creation in mind.
 
-## Create File Tree
+## First, clone github repo. Below are some specifics that may come in handy...
+
+## The File Tree
 - views
+  - layouts
+  - partials
 - routes
 - public
   - js
   - css
   - images
 - bin
+  
+  If we want to use images in our portfolios, we can store them in `/images` and go from there.
 
 ## Create top level files
 
@@ -38,3 +44,21 @@ app.set('view engine', '.hbs');
 * next, we'll look at how we set up the handlebars templating
 
 ## Handlebars templating
+
+  * We will need to create a `single.hbrs` file in `/views/layouts` containing:
+  
+      ```javascript
+        <html>
+          {{>head}}
+           <body>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                    {{{ body }}}
+                </div>
+              </div>
+            </div>
+          </body>
+        </html>
+    ```
+  * Next create `/views/partials/head.hbs`, which will contain everything that you would put in the `head` of your html file: links to cdns, scripts, et c..
