@@ -35,16 +35,6 @@ app.engine('.hbs', exphbs({defaultLayout: 'single', extname: '.hbs'}));
 app.set('view engine', '.hbs');
 ```
 
-* next, we'll set up the `/routes/index.js`. Create the file and add the following code:
+* next, we'll look at how we set up the handlebars templating
 
-    ```javascript
-    #!/usr/bin/env node
-    var debug = require('debug')('my-application');
-    var app = require('../app');
-     
-    app.set('port', process.env.PORT || 3000);
-       
-    var server = app.listen(app.get('port'), function() {
-    debug('Express server listening on port ' + server.address().port);
-    });
-     ```
+## Handlebars templating
